@@ -15,7 +15,7 @@
   },
   "permissions": ["storage"],
   "background": {
-    "scripts": ["js/bg.js"]
+    "service_worker": "js/bg.js"
   },
   "action": {
     "default_title": "__MSG_extName__"
