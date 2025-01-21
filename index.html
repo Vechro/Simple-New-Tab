@@ -1,1 +1,28 @@
-<script src="js/main.js"></script>
+<html>
+  <head>
+    <style>
+      :root {
+        --fill-color: #f7f7f7;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fill-color: #242424;
+        }
+      }
+
+      html {
+        height: 100vh;
+        background-color: var(--fill-color);
+      }
+
+      body {
+        margin: 0;
+        height: inherit;
+        background-color: var(--fill-color);
+      }
+    </style>
+    <script src="js/main.js"></script>
+  </head>
+  <body></body>
+</html>
